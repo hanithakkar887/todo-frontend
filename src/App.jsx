@@ -2,7 +2,7 @@ import './App.css'
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://todo-backend-6-mgan.onrender.com";
 
 function App() {
     const [tasks, setTasks] = useState([]);
